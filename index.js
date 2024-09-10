@@ -1,8 +1,21 @@
 // ESTRUTURA DE REPETIÇÃO DENTRO DE UMA ARROW FUNCTION
-const start = () => {
+const {select} = require('@inquirer/prompts')
+
+const start = async () => {
 
     while(true){
-        let opcao = "sair"
+       
+
+        const opcao = await select({
+
+
+
+
+        })
+
+
+
+
         switch(opcao){
             case "cadastrar":
                 console.log("Vamos cadastrar")
